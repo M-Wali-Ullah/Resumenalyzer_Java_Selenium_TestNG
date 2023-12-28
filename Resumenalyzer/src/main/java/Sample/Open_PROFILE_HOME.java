@@ -24,7 +24,7 @@ public class Open_PROFILE_HOME {
         email.sendKeys(emailaddress);
         
         WebElement password = driver.findElement(By.xpath("//*[@id=\"id_password\"]"));
-        password.sendKeys("1070Waliarmy");
+        password.sendKeys("1070");
         
         WebElement signinbutton = driver.findElement(By.xpath("/html/body/section/div/div/div[1]/div/div/div[2]/form/button"));
         signinbutton.click();

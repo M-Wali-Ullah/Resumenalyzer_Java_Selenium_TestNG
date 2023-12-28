@@ -57,17 +57,17 @@ public class Update_Password {
         
         // Enter Old Password
         WebElement enteroldpassword = driver.findElement(By.xpath("//*[@id=\"id_old_password\"]"));
-        enteroldpassword.sendKeys("1070Waliarmy");
+        enteroldpassword.sendKeys("1070");
         sleep(2000); // Wait for 2 seconds
         
         // Enter New Password
         WebElement enternewpassword = driver.findElement(By.xpath("//*[@id=\"id_new_password1\"]"));
-        enternewpassword.sendKeys("1070Waliarmy");
+        enternewpassword.sendKeys("1070");
         sleep(2000); // Wait for 2 seconds
         
         // Enter New Password Again
         WebElement enternewpasswordagain = driver.findElement(By.xpath("//*[@id=\"id_new_password2\"]"));
-        enternewpasswordagain.sendKeys("1070Waliarmy");
+        enternewpasswordagain.sendKeys("1070");
         sleep(2000); // Wait for 2 seconds
         
         // Click the Update Now Button

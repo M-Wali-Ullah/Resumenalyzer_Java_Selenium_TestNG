@@ -33,7 +33,7 @@ public class Deactivate_Account {
 
         // Enter password
         WebElement passwordInput = driver.findElement(By.xpath("//*[@id=\"id_password\"]"));
-        passwordInput.sendKeys("1070Waliarmy");
+        passwordInput.sendKeys("1070");
 
         // Click the sign-in button
         WebElement signInSubmitButton = driver.findElement(By.xpath("/html/body/section/div/div/div[1]/div/div/div[2]/form/button"));
